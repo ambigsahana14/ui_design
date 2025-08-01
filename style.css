@@ -1,8 +1,8 @@
 
-/* index.html styles */
+
 body {
   margin: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family:  sans-serif;
   background-color: white;
   color: black;
   display: flex;
@@ -10,6 +10,50 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+body.dark-mode header,
+body.dark-mode .hero,
+body.dark-mode .about,
+body.dark-mode .features-grid,
+body.dark-mode .service,
+body.dark-mode .icon-grid,
+body.dark-mode footer {
+  background-color: #000;
+  color: #fff;
+}
+
+body.dark-mode button {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+body.dark-mode i,
+body.dark-mode .footer-column p,
+body.dark-mode .feature,
+body.dark-mode .icon-item {
+  color: #fff;
+}
+/* Preserve FAQ question box color even in dark mode */
+body.dark-mode .faq-item {
+  background-color: #f1f1f1; 
+    color: #000;               
+}
+
+body.dark-mode .faq-question span {
+  color: #000; 
+}
+body.dark-mode .join,
+body.dark-mode .explore {
+  background-color: #f38024;
+  color: white;
+  border: none;
+}
+
 
 header {
   display: flex;
@@ -44,7 +88,7 @@ header {
 }
 
 .join {
-  background: black;
+  background: #f38024;
   color: white;
 }
 
@@ -55,14 +99,14 @@ header {
 }
 
 .hero h1 {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: bold;
   margin-bottom: 0;
   line-height: 1;
 }
 
 .hero p {
-  font-size: 30px;
+  font-size: 32px;
   color: #888;
   margin-top: 0;
   font-weight: bold;
@@ -85,7 +129,7 @@ header {
 }
 
 .explore {
-  background-color: black;
+  background-color:#f38024;
   color: white;
 }
 
@@ -93,6 +137,26 @@ header {
   background-color: #eee;
 }
 
+.trusted {
+  display: flex;
+  justify-content: last baseline;
+  gap: 300px;
+  margin-top: 70px;
+  color: #aaa;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+  margin: 60px 40px;
+  box-sizing: border-box;
+}
+
+.trusted div {
+  font-size: 20px;
+  display: flex;
+  align-items: left;
+  gap: 16px;
+  line-height: 1;
+}
 
 .about {
   text-align: left;
@@ -129,7 +193,7 @@ html, body {
   box-sizing: border-box;
   width: 100vw;
   min-height: 100vh;
-  background: #fff;
+
 }
 
 .intro {
