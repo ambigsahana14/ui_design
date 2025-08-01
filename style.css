@@ -2,10 +2,11 @@
 /* index.html styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   background-color: white;
   color: black;
   display: flex;
+  padding: 20px;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -24,24 +25,6 @@ header {
   margin: 20px 40px;
 }
 
-.square, .circle, .triangle {
-  width: 18px;
-  height: 18px;
-  background-color: black;
-}
-
-.circle {
-  border-radius: 50%;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-bottom: 18px solid black;
-  background: none;
-}
 
 .buttons {
   display: flex;
@@ -72,16 +55,17 @@ header {
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bold;
   margin-bottom: 0;
   line-height: 1;
 }
 
 .hero p {
-  font-size: 40px;
+  font-size: 32px;
   color: #888;
   margin-top: 0;
+  font-weight: bold;
   line-height: 1;
 }
 
@@ -134,15 +118,17 @@ header {
   text-align: left;
   margin: 5px 40px;
   margin-bottom: 60px;
+  margin-top: 30px;
 }
 
 .about b {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .about p {
   margin-top: 1px;
-  font-size: 20px;
+  font-size: 16px;
   color: #aaa;
   font-weight: bold;
 }
