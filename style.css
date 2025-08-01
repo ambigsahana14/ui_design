@@ -55,14 +55,14 @@ header {
 }
 
 .hero h1 {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 0;
   line-height: 1;
 }
 
 .hero p {
-  font-size: 32px;
+  font-size: 30px;
   color: #888;
   margin-top: 0;
   font-weight: bold;
@@ -93,26 +93,6 @@ header {
   background-color: #eee;
 }
 
-.trusted {
-  display: flex;
-  justify-content: last baseline;
-  gap: 300px;
-  margin-top: 70px;
-  color: #aaa;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px 0;
-  margin: 60px 40px;
-  box-sizing: border-box;
-}
-
-.trusted div {
-  font-size: 20px;
-  display: flex;
-  align-items: left;
-  gap: 16px;
-  line-height: 1;
-}
 
 .about {
   text-align: left;
